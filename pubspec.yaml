@@ -1,0 +1,50 @@
+# By Harsh H. Rajpurohit
+name: vpn_basic_project
+description: Flutter Android VPN based on OpenVPN Library.
+publish_to: 'none'
+
+# App Version
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.6 <3.0.0"
+
+# App dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.6.5
+  flutter_switch: ^0.3.2
+  http: ^1.1.0
+  csv: ^5.0.2
+  localstorage: ^4.0.1+4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Change package name  
+  # change_app_package_name: ^1.1.0
+
+flutter:
+  # Enabling material design
+  uses-material-design: true
+
+  # App assets
+  assets:
+    - assets/
+    - assets/vpn/
+    - assets/flags/
+    - fonts/
+
+
+
+  fonts:
+    - family: Loto
+      fonts:
+        - asset: fonts/Lato-Light.ttf
+    - family: Mont
+      fonts:
+        - asset: fonts/Montserrat-VariableFont_wght.ttf
